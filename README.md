@@ -11,3 +11,23 @@
 
 > [!NOTE]
 > Notas opensource sobre Cálculo Integral
+
+## Capítulo 1: Integrales
+
+## Capítulo 2: Aplicaciones de la integración
+
+* Cálculo de áreas entre curvas
+
+* Calculo de volúmenes (rebanadas, arandelas, cascarones cilindricos)
+
+* Trabajo
+
+* Curvas paramétricas
+
+* Cálculo con curvas paramétricas: Áreas, longitud de arco (en paramétricas y en cartesianas)
+
+* Coordenadas y curvas en polares
+
+* Áreas y longitudes en coordenadas polares (rectas, círculos y cardioides)
+
+## Capítulo 3: Sucesiones y series infinitas
