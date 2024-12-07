@@ -42,7 +42,15 @@ $$
 V(S) = \int_{a}^{b}{A(x)}dx
 $$
 
+## Volúmenes mediante discos
+
+$$
+V(S) = \pi*\int_{a}^{b}{R^{2}(x)}dx
+$$
+
 ## Volúmenes mediante arandelas
+
+![](https://i.ytimg.com/vi/J0eyio8uAoA/maxresdefault.jpg)
 
 $$
 V(S) = \pi*\int_{a}^{b}{R^{2}(x) - r^{2}(x)}dx
@@ -53,3 +61,9 @@ $$
 $$
 V(S) = 2\pi*\int_{a}^{b}{d(x)*f(x)}dx
 $$
+
+* **Distancia al eje de giro**: $d(x)$
+
+* **Altura del cilidro**: $f(x)$
+
+
