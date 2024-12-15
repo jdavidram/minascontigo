@@ -110,7 +110,7 @@ Para el estudio de este tema recordemos antes algunas unidades de medida para ca
 
 * Densidad del agua: $\rho = \frac{m}{v} = 1000*\frac{kg}{m^{3}} = 1.94*\frac{slug}{ft^{3}}$
 
-* Peso específico del agua: $\gamma = \rho*g = 9800*\frac{N}{m^{3}} = 62.4*\frac{lb}{ft^{3}}$
+* Peso específico del agua: $\gamma = \rho * g = 9800 * \frac{N}{m^{3}} = 62.4 * \frac{lb}{ft^{3}}$
 
 > **Nota:** Al trabajar este tipo de problemas debemos expresar todas las cantidades físicas en las mismas unidades.
 
@@ -143,7 +143,7 @@ L = dx
 $$
 
 $$
-dW = F*L = k*x*dx
+dW = F * L = k * x * dx
 $$
 
 $$
@@ -161,7 +161,7 @@ L = dy
 $$
 
 $$
-dW = F*L = g*(m + ((L_{total} - y)*\rho_{L}))dy
+dW = F * L = g * (m + ((L_{total} - y) * \rho_{L}))dy
 $$
 
 $$
@@ -179,7 +179,7 @@ L = (y_{f} - y)
 $$
 
 $$
-dW = F*L = (y_{f} - y)*\gamma*dv
+dW = F * L = (y_{f} - y) * \gamma * dv
 $$
 
 $$
