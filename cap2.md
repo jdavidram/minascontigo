@@ -185,3 +185,31 @@ $$
 $$
 \int{W}dW =  \int_{a}^{b}{(y_{f} - y)*\gamma}dV
 $$
+
+# Momentos y centros de masa
+
+La **masa** del rectángulo $R_{i}$ está dad por $m(R_{i}) = densidad*área(R_{i}) = \rho*[f(\bar{x_{i}}) - g(\bar{x_{i}})]*\Delta x$
+
+El **momento** del rectángulo $R_{i}$ respecto al eje $y$ es $m(R_{i})$ por la distancia de $C_{i}$ al eje y; es decir, $M_{y}(R_{i}) = m(R_{i})*\bar{x_{i}}$
+
+Definimos el **momento** de R **respecto al eje y** por
+
+$$
+M_{y} = \lim_{n \to \infty} \sum_{i=1}^{n} M_{y}(R_{i}) = \int_{a}^{b}{\rho x*(f(x) - g(x))}dx
+$$
+
+De manera análoga, se justifica que el **momento** de R **respecto al eje x** es
+
+$$
+M_{x} = \int_{a}^{b}{\frac{1}{2}*\rho*(f^{2}(x) - g^{2}(x))}dx
+$$
+
+Sean A el área y $m = \rho*A$ la masa de R. El **centroide** $(\bar{x}, \bar{y})$ de R se define por
+
+$$
+\bar{x} = \frac{M_{y}}{m} = \frac{1}{A}*\int_{a}^{b}{x*(f(x) - g(x))}dx
+$$
+
+$$
+\bar{y} = \frac{M_{x}}{m} = \frac{1}{2A}*\int_{a}^{b}{f^{2}(x) - g^{2}(x)}dx
+$$
