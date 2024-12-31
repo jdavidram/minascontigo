@@ -46,7 +46,9 @@ La Regla de Sustitución es el proceso inverso a **la derivada de la cadena**.
 
 $$
 \frac{dF(G(x))}{dx} = f(G(x))*g(x)
-\\
+$$
+
+$$
 \int{f(G(x))*g(x)}dx = F(G(x)) + C
 $$
 
@@ -58,7 +60,7 @@ Para evaluar $\int{f(G(x))*g(x)}dx$
 
 2. Integra con respecto a $u$: $\int{f(u)}du = F(u) + C$
 
-3. Reemplace $u$ por $g(x)$: $F(u) + C = F(G(x)) + C$
+3. Reemplace $u$ por $G(x)$: $F(u) + C = F(G(x)) + C$
 
 ## El método de sustitución en integrales definidas
 
@@ -104,7 +106,9 @@ $$
 
 $$
 x = a*sin(\theta)
-\\
+$$
+
+$$
 -\frac{\pi}{2} \leq \theta \leq \frac{\pi}{2}
 $$
 
@@ -132,7 +136,9 @@ $$
 
 $$
 x = a*tan(\theta)
-\\
+$$
+
+$$
 -\frac{\pi}{2} \leq \theta \leq \frac{\pi}{2}
 $$
 
@@ -160,14 +166,16 @@ $$
 
 $$
 x = a*sec(\theta)
-\\
+$$
+
+$$
 0 \leq \theta < \frac{\pi}{2} \cup \pi \leq \theta < \frac{3*\pi}{2}
 $$
 
 * Diferencial
 
 $$
-dx = a*tan\theta*sec\theta d\theta
+dx = a*tan(\theta)*sec(\theta)d\theta
 $$
 
 * Identidad
@@ -178,7 +186,7 @@ $$
 
 # Integración por fracciones parciales
 
-> **Nota**: Este método se puede aplicar si $f(x) = \frac{P(x)}{Q(x)} es una **fracción propia** (el grado del numerador P es menor que el grado del denominador Q). Si la fracción es impropia, se debe realizar el paso preliminar de dividir P por Q$.
+> **Nota**: Este método se puede aplicar si $f(x) = \frac{P(x)}{Q(x)}$ es una **fracción propia** (el grado del numerador P es menor que el grado del denominador Q). Si la fracción es impropia, se debe realizar el paso preliminar de dividir $P$ por $Q$.
 
 ## Método de fracciones parciales para evaluar $\int{\frac{P(x)}{Q(x)}}dx$
 
@@ -188,21 +196,27 @@ $$
 
 $$
 \frac{A}{ax+b}
-\\
+$$
+
+$$
 \frac{Ax + B}{ax^2 + bx + c}
 $$
 
-3. Halle las constantes A, B,... usando el hecho de que la suma de estas fracciones tiene que ser igual a $P(x)/Q(x)$
+3. Halle las constantes A, B,... usando el hecho de que la suma de estas fracciones tiene que ser igual a $\frac{P(x)}{Q(x)}$
 
-4. Integre de acuerdo a cada caso.
+5. Integre de acuerdo a cada caso.
 
 ### Caso 1: El denominador $Q(x)$ es producto de factores lineales distintos
 
 $$
 \frac{3x^2 + 7x - 2}{x^3 - x}
-\\
+$$
+
+$$
 \frac{A}{x} + \frac{B}{x-1} + \frac{C}{x+1}
-\\
+$$
+
+$$
 A = 2 \ B = 4 \ C = -3
 $$
 
@@ -210,9 +224,13 @@ $$
 
 $$
 \frac{4x^2 + 2x + 3}{(4-x)*(x+1)^2}
-\\
+$$
+
+$$
 \frac{A}{x-4} + \frac{B}{x+1} + \frac{C}{(x+1)^2}
-\\
+$$
+
+$$
 A = 3 \ B = 1 \ C = -1
 $$
 
@@ -230,13 +248,21 @@ $$
 
 $$
 \frac{x^3 - x + 6}{x^3 + 4x}
-\\
+$$
+
+$$
 \frac{x*(x^2 + 4) - 5x + 6}{x*(x^2 + 4)} = \frac{x*(x^2 + 4)}{x*(x^2 + 4)} + \frac{-5x + 6}{x*(x^2 + 4)}
-\\
+$$
+
+$$
 1 + \frac{-5x + 6}{x*(x^2 + 4)}
-\\
+$$
+
+$$
 1 + \frac{A}{x} + \frac{Bx + C}{x^2 + 4}
-\\
+$$
+
+$$
 A = \frac{3}{2} \ B = -\frac{3}{2} \ C = -5
 $$
 
@@ -244,9 +270,13 @@ $$
 
 $$
 \frac{-x^3 + 2x^2 - x + 1}{x*(x^2 + 1)^2}
-\\
+$$
+
+$$
 \frac{A}{x} + \frac{Bx + C}{x^2 + 1} + \frac{Dx + E}{(x^2 + 1)^2}
-\\
+$$
+
+$$
 A = 1 \ B = -1 \ C = -1 \ D = 1 \ E = 0
 $$
 
