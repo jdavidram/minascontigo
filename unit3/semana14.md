@@ -25,7 +25,7 @@ $$
 La cual vimos que converge si $|x| < 1$ y diverge si $|x| \geq 1$. Ademas,
 
 > **Serie geométrica**
->
+> 
 > $f(x) = \frac{1}{1-x} = \sum_{n=0}^{\infty} x^{n}$
 > 
 > $|x| < 1$
@@ -129,6 +129,7 @@ $$
 En ambos casos, el radio de convergencia sigue siendo R.
 
 > **Nota**
+> 
 > * Observar que al derivar la serie se pierde el primer término (por ser una constante), esto no pasa siempre.
 > 
 > * El invervalo de convergencia si puede cambiar en los extremos. Luego, siempre debemos analizarlos por aparte.
@@ -241,11 +242,11 @@ $$
 para $|x-a| < R$.
 
 > **Nota:**
->
+> 
 > Al aplicar estos teoremas suele ser útil el siguiente límite:
->
+> 
 > $\lim\limits_{n\to\infty} \frac{|x|^{(n+1)}}{(n+1)!} = 0$
->
+> 
 > Para todo número $x \in \mathbb{R}$.
 
 ### Series importantes de Maclaurin y sus radios de convergencia

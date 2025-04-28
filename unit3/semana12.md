@@ -31,4 +31,3 @@ Gráficamente,
 ## Leyes de los límites para sucesiones
 
 Si $\{ a_{n} \}$ y $\{ b_{n} \}$ son sucesiones convergentes y c una constante, entonces:
-

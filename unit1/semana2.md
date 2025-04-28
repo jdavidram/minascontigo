@@ -14,7 +14,7 @@ Por definición
 > 
 > Indica iniciar en $i = m$
 
-## Propiedades
+## Propiedades de la sumatoria
 
 $$
 \sum_{i=1}^{n} c = n*c

@@ -5,4 +5,3 @@ Si $f$ y $g$ son funciones continuas definidas sobre un intervalo común *I*, en
 $$
 C = \{(f(t), g(t)) | t \in I\} \subseteq \mathbb{R}
 $$
-

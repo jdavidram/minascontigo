@@ -25,9 +25,9 @@ F'(x) = \frac{d}{dx} \int_{a}^{x} f(t)dt = f(x)
 $$
 
 > **Nota:** Si a la definición anterior del TFC le sumamos la regla de la cadena, obtenemos de manera más general lo siguiente:
->
+> 
 > Si se tiene $G(x) = \int_{a(x)}^{b(x)} f(t)dt$
->
+> 
 > Entonces $G'(x) = f(b(x))*b'(x) - f(a(x))*a'(x)$
 
 ## La derivación y la integración como procesos inversos

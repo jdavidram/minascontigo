@@ -1,7 +1,7 @@
 # Teorema del cambio neto
 
 > La integral de una razón de cambio es el cambio neto (o total):
->
+> 
 > $\int_{a}^{b}{Q'(x)}dx = Q(b) - Q(a)$
 
 * Si un objeto se mueve a lo largo de una línea recta con función posición $y(t)$, su velocidad es $v(t) = y'(t)$. De modo que **el desplazamiento** de la particula desde $t_1$ hasta $t_2$ es:
@@ -188,7 +188,9 @@ $$
 
 > **Nota**: Este método se puede aplicar si $f(x) = \frac{P(x)}{Q(x)}$ es una **fracción propia** (el grado del numerador P es menor que el grado del denominador Q). Si la fracción es impropia, se debe realizar el paso preliminar de dividir $P$ por $Q$.
 
-## Método de fracciones parciales para evaluar $\int{\frac{P(x)}{Q(x)}}dx$
+## Método de fracciones parciales
+
+Para evaluar $\int{\frac{P(x)}{Q(x)}}dx$
 
 1. Factorice $Q(x)$ tanto como sea posible en factores lineales y/o factores cuadráticos irreducibles.
 
@@ -204,7 +206,7 @@ $$
 
 3. Halle las constantes A, B,... usando el hecho de que la suma de estas fracciones tiene que ser igual a $\frac{P(x)}{Q(x)}$
 
-5. Integre de acuerdo a cada caso.
+4. Integre de acuerdo a cada caso.
 
 ### Caso 1: El denominador $Q(x)$ es producto de factores lineales distintos
 
@@ -235,13 +237,13 @@ A = 3 \ B = 1 \ C = -1
 $$
 
 > **Nota**
->
+> 
 > * Un factor cuadrático $ax^2 + bx + c$ se dice que es irreducible si $b^2 - 4ac < 0$. (Es decir, si su discriminante es negativo)
->
+> 
 > * Todo polinomio se factoriza como producto de factores lineales y cuadráticos irreducibles.
->
+> 
 > * En algunos casos es útil saber que:
->
+> 
 > $\int{\frac{1}{x^2 + a^2}}dx = \frac{1}{a}*tan^{-1}\frac{x}{a} + C$
 
 ## Caso 3: $Q(x)$ contiene factores cuadráticos irreducibles, de los cuales ninguno se repite.
