@@ -285,3 +285,67 @@ $$
 # Integrales impropias
 
 En el caso de que el intervalo de integración sea infinito o en el caso que $f(x)$ tenga una discontinuidad infinita en $(a, b)$, se denomina una **integral impropia**.
+
+## Intervalos infinitos
+
+Decimos que las **integrales impropias**
+
+$$
+\int_{a}^{\infty} f(x)dx = \lim_{t \to \infty} \int_{a}^{t} f(x)dx
+$$
+
+$$
+\int_{-\infty}^{b} f(x)dx = \lim_{t \to -\infty} \int_{t}^{b} f(x)dx
+$$
+
+son **convergentes**, si los límites existen y son finitos. En caso contrario, decimos que son **divergentes**.
+
+Además, decimos que
+
+$$
+\int_{-\infty}^{\infty} f(x)dx = \int_{-\infty}^{a} f(x)dx + \int_{a}^{\infty} f(x)dx
+$$
+
+es **convergente**, si ambas integrales convergen. En caso contrario, decimos que es **divergente**.
+
+> **Integrales p**: ¿Para qué valores de $p$ la integral $\int_{1}^{\infty} \frac{dx}{x^{p}}$ es convergente?
+> 
+> $\int_{1}^{\infty} \frac{dx}{x^{p}}$
+> 
+> **Converge** a $\frac{1}{p-1}$, si $p > 1$
+> 
+> **Diverge** si $p \leq 1$
+
+## Integrandos con discontinuidad infinita
+
+Si $f$ es continua en $[a,b)$ y es discontinua en $x=b$, definimos
+
+$$
+\int_{a}^{b} f(x)dx = \lim_{t \to b^{-}} \int_{a}^{t} f(x)dx
+$$
+
+Similarmente, si $f$ es continua en $(a,b]$ y es discontinua en $x=a$, definimos
+
+$$
+\int_{a}^{b} f(x)dx = \lim_{t \to a^{+}} \int_{t}^{b} f(x)dx
+$$
+
+En ambos casos, decimos que la integral impropia **converge** si existe el límite y que **diverge** en caso contrario.
+
+Si la discontinuidad infinita ocurre en $c$, con $a < c < b$ y tanto $\int_{a}^{c} f(x)dx$ como $\int_{c}^{b} f(x)dx$ son convergentes, se define:
+
+$$
+\int_{a}^{b} f(x)dx = \int_{a}^{c} f(x)dx + \int_{c}^{b} f(x)dx
+$$
+
+> **Nota**: En adelante, siempre que se encuentre el símbolo $\int_{a}^{b} f(x)dx$ se debe verificar si la función es continua o no en $[a, b]$ para decidir si hay que evaluar una integral definida ordinaria ó una integral impropia con una discontinuidad infinita en $[a, b]$.
+
+# Pruebas de comparación para integrales impropias
+
+Algunas veces no es posible calcular el valor exacto de una integral impropia. Sin embargo, es posible determinar si converge o no al compararla con otra integral impropia conocida ó más fácil de calcular.
+
+Supongamos que $f$ y $g$ son continuas con $0 \leq g(x) \leq f(x)$, para todo $x \geq a$.
+
+* Si $\int_{a}^{\infty} f(x)dx$ converge, entonces $\int_{a}^{\infty} g(x)dx$ también converge.
+
+* Si $\int_{a}^{\infty} g(x)dx$ diverge, entonces $\int_{a}^{\infty} f(x)dx$ también diverge.
