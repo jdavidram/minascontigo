@@ -14,47 +14,47 @@
 
 ## Capítulo 1: Integrales
 
-* [Notación Sigma](./unit1/semana2.md#notación-sigma)
+* Notación Sigma
 
-* [Propiedades de la sumatoria](./unit1/semana2.md#propiedades-de-la-sumatoria)
+* Propiedades de la sumatoria
 
-* [Algunas fórmulas para sumatorias](./unit1/semana2.md#algunas-fórmulas-para-sumatorias)
+* Algunas fórmulas para sumatorias
 
-* [El problema del área](./unit1/semana2.md#el-problema-del-área)
+* El problema del área
 
-* [El problema de la distancia](./unit1/semana2.md#el-problema-de-la-distancia)
+* El problema de la distancia
 
-* [Integral definida](./unit1/semana3.md#integral-definida)
+* Integral definida
 
-* [Propiedades de la integral definida](./unit1/semana3.md#propiedades-de-la-integral-definida)
+* Propiedades de la integral definida
 
-* [La antiderivada y la integral indefinida](./unit1/semana3.md#antiderivada)
+* La antiderivada y la integral indefinida
 
-* [Movimiento rectilíneo](./unit1/semana3.md#movimiento-rectilíneo)
+* Movimiento rectilíneo
 
-* [Teorema Fundamental del Calculo](./unit1/semana4.md#teorema-fundamental-del-cálculo)
+* Teorema Fundamental del Calculo
 
-* [Aplicaciones: Teorema del cambio neto](./unit1/semana5.md#teorema-del-cambio-neto)
+* Aplicaciones: Teorema del cambio neto
 
-* [Regla de sustitución](./unit1/semana5.md#regla-de-sustitución)
+* Regla de sustitución
 
-* [Integración por partes](./unit1/semana5.md#técnica-de-integración-por-partes)
+* Integración por partes
 
-* [Sustitución trigonométrica](./unit1/semana5.md#sustitución-trigonométrica)
+* Sustitución trigonométrica
 
-* [Integración de funciones racionales mediante fracciones parciales](./unit1/semana5.md#método-de-fracciones-parciales)
+* Integración de funciones racionales mediante fracciones parciales
 
-* [Integrales impropias](./unit1/semana5.md#integrales-impropias)
+* Integrales impropias
 
 ## Capítulo 2: Aplicaciones de la integración
 
-* [Cálculo de áreas entre curvas](./cap2.md#áreas-entre-curvas)
+* Cálculo de áreas entre curvas
 
-* [Calculo de volúmenes (rebanadas, arandelas, cascarones cilindricos)](./cap2.md#volúmenes)
+* Calculo de volúmenes (rebanadas, arandelas, cascarones cilindricos)
 
-* [Trabajo](./cap2.md#trabajo)
+* Trabajo
 
-* [Momentos y centros de masa](./cap2.md#momentos-y-centros-de-masa)
+* Momentos y centros de masa
 
 * Curvas paramétricas
 
