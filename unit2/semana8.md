@@ -100,6 +100,8 @@ $$
 \int{W}dW =  \int_{a}^{b}{g*(m + ((L_{total} - y)*\rho_{L}))}dy
 $$
 
+> **Ejercicio:** Calcula el trabajo que tiene que hacer un motor para mover un elevador desde el primer piso al quinto piso a 30 metros del primero. Ten en cuenta que la cabina sola pesa 200kg, que en el primer piso se subió un hombre de 70kg y que en cada piso se sube otro del mismo peso.
+
 ## Vaciado de tanques
 
 $$
@@ -117,6 +119,12 @@ $$
 $$
 \int{W}dW =  \int_{a}^{b}{(y_{f} - y)*\gamma}dV
 $$
+
+> **Ejercicio:** Te estas tomando una michelada en la playa a 30°C, en un vaso con altura de 10cm y un diametro de 7cm; además, te dieron un pitillo de 15cm para beber. Calcula el trabajo de tomarte la michelada asumiendo que el vaso esta lleno hasta el borde.
+
+> **Ejercicio:** Te fuiste a San Andres de vacaciones y te sirvieron un coco loco, asumiendo que el coco es una esfera perfecta de diametro de 20cm, que esta lleno hasta 3/4 de la altura completa y que tienes un pitillo de 30cm, ¿Cual es el trabajo de tomarte el coco loco?
+
+> **Ejercicio:** Trabajas en un equipo de la ONU que desarrolla viviendas rurales en zonas inundadas, la estrategia que escogieron para el diseño de las viviendas son los palafitos; sin embargo, ahora se enfrentan al problema de subir agua desde la laguna en la que están hasta la vivienda, para ello necesitan poner unas bombas en las viviendas pero tienes que calcular el trabajo que tiene que hacer la bomba para escoger la mejor. Ten en cuenta que la poseta dentro de la vivienda tiene forma de prisma rectangular con base de 2X2 metros cuadrados y altura de 1,5 metros; además, por eficiencia de la bomba, esta poseta se tiene que llenar desde arriba.
 
 # Momentos y centros de masa
 
