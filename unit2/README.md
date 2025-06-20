@@ -310,3 +310,44 @@ $$
 L = \int_{a}^{b} \sqrt{(\frac{dx}{dy})^{2} + 1} dy
 $$
 
+# Coordenadas polares
+
+El **sistema coordenado polar**, introducido por Newton, proporciona descripciones y ecuaciones más simples para cierto tipo de curvas y regiones en el plano.
+
+> **Conexión entre coordenadas polares y cartesianas**
+>
+> * Si el punto $P \in \mathbb{R}^{2}$ tiene coordenadas polares $(r, \theta)$, entonces sus coordenadas cartesianas se obtienen mediante:
+>
+> $$x = rcos(\theta) \\ y = rsin(\theta)$$
+>
+> * Si el punto $P \in \mathbb{R}^{2}$ tiene coordenadas cartesianas $(x, y)$, entonces sus coordenadas polares se obtienen mediante:
+>
+> $$r^{2} = x^{2} + y^{2} \\ tan(\theta) = \frac{y}{x}; \ x \neq 0$$
+
+# Áreas en coordenadas polares
+
+El **área** de la región $R$ acotada por la curva $r = f(\theta)$ entre las rectas $\theta = \alpha$ y $\theta = \beta$ es
+
+$$
+A = \int_{\alpha}^{\beta} \frac{1}{2}*[f(\theta)]^{2} d\theta = \frac{1}{2}*\int_{\alpha}^{\beta} r^{2}(\theta) d\theta
+$$
+
+Ahora, consideremos 2 curvas $r = f(\theta)$ y $r = g(\theta)$. Si $f, g$ son continuas en $[\alpha, \beta]$ y $f(\theta) \geq g(\theta)$ para todo $\theta \in [\alpha, \beta]$, entonces el **área** entre $f$ y $g$ es:
+
+$$
+A = \frac{1}{2}*\int_{\alpha}^{\beta} ([f(\theta)]^{2} - [g(\theta)]^{2}) d\theta
+$$
+
+# Longitud de arco en polares
+
+Dada una curva polar $r = f(\theta)$ podemos considerar la parametrización
+
+$$
+x = rcos(\theta) = f(\theta)*cos(\theta) \\ y = rsin(\theta) = f(\theta)*sin(\theta) \\ \alpha \leq \theta \leq \beta
+$$
+
+lo cual da lugar a la **fórmula polar para longitud de arco**:
+
+$$
+L = \int_{\alpha}^{\beta} \sqrt{(\frac{dx}{d\theta})^{2} + (\frac{dy}{d\theta})^{2}} d\theta = \int_{\alpha}^{\beta} \sqrt{r^{2} + (\frac{dr}{d\theta})^{2}} d\theta
+$$
