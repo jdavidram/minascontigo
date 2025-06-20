@@ -1,5 +1,21 @@
 # Pruebas de divergencia
 
+> **Nota**
+>
+> Si $\sum a_{n}$ es convergente, entonces $\lim_{n \to \infty} a_{n} = 0$
+>
+> En general no se cumple el recíproco. Es decir, si $\lim_{n \to \infty} a_{n} = 0$, **NO** puedo concluir que $\sum a_{n}$ sea convergente.
+
+## Prueba de la divergencia
+
+Si
+
+$$
+\lim_{n \to \infty} a_{n} \neq 0 \ o \ \nexists
+$$
+
+entonces $\sum a_{n}$ diverge.
+
 ## Prueba de la integral
 
 Sean $f: [1, \infty) \to \mathbb{R}^{+}$ una función continua, positiva y decreciente y $a_{n} = f(n)$, $\forall n$.
@@ -95,6 +111,16 @@ $$
 
 Observar que $b_{4} = \frac{1}{256} < \frac{1}{200} = 0.005$. Entonces por el teorema $|R_{3}| = |s - s_{3}| \leq b_{4}$, es decir, si estimamos $s$ por $s_{3}$ el error no afecta la segunda cifra decimal. Luego, una estimación para *s* aproximada a 2 cifras decimales es $s_{3} \approx 0.9498$
 
+## Prueba de la razón y de la raiz
+
+Sea $\lim\limits_{n \to \infty} |\frac{a_{n+1}}{a_{n}}| = L$ ó $\lim\limits_{n \to \infty} |a_{n}|^{\frac{1}{n}} = L$
+
+* $L < 1 => \sum_{n=1}^{\infty} a_{n}$ es absolutamente convergente
+
+* $L > 1$ ó $L = \infty => \sum_{n=1}^{\infty} a_{n}$ es divergente
+
+* Si $L = 1$, entonces la prueba NO es concluyente.
+
 ## Convergencia absoluta
 
 Dada cualquier serie $\sum a_{n}$ se puede considerar la serie
@@ -111,13 +137,3 @@ cuyos términos son los valores absolutos de los términos de la serie original.
 > * **Condicionalmente convergente** si es convergente, pero NO absolutamente convergente.
 
 > **Nota:** Si $a_{n} > 0$, entonces $\sum a_{n} = \sum |a_{n}|$. Luego, la convergencia absoluta es lo mismo que la convergencia usual en este caso.
-
-## Prueba de la razón y de la raiz
-
-Sea $\lim\limits_{n \to \infty} |\frac{a_{n+1}}{a_{n}}| = L$ ó $\lim\limits_{n \to \infty} |a_{n}|^{\frac{1}{n}} = L$
-
-* $L < 1 => \sum_{n=1}^{\infty} a_{n}$ es absolutamente convergente
-
-* $L > 1$ ó $L = \infty => \sum_{n=1}^{\infty} a_{n}$ es divergente
-
-* Si $L = 1$, entonces la prueba NO es concluyente.
