@@ -221,3 +221,92 @@ $$
 $$
 \bar{y} = \frac{M_{x}}{m} = \frac{1}{2A}*\int_{a}^{b}{f^{2}(x) - g^{2}(x)}dx
 $$
+
+# Curvas definidas por medio de ecuaciones paramétricas
+
+Si $f$ y $g$ son funciones continuas definidas sobre un intervalo común *I*, entonces $x = f(t)$, $y = g(t)$ se denominan **ecuaciones paramétricas** y $t$ recibe el nombre de **paraámetro**. La curva plana
+
+$$
+C = \{(f(t), g(t)) | t \in I\} \subseteq \mathbb{R}
+$$
+
+Se denomina **curva paramétrica**.
+
+Cuando $I = [a, b]$, decimos que la curva tiene punto inicial $(f(a), g(a))$ y punto final $(f(b), g(b))$.
+
+# Cálculo con curvas paramétricas
+
+## Tangentes
+
+Una curva paramétrica $x = f(t)$, $y = g(t)$ es **diferenciable** en t si f y g son diferenciables en t. Usando la regla de la cadena, si las 3 derivadas existen y $\frac{dx}{dt} \neq 0$, entonces
+
+$$
+\frac{dy}{dx} = \frac{dy / dt}{dx / dt} = \frac{y'(t)}{x'(t)}
+$$
+
+La anterior fórmula nos da un criterio que es útil para trazar curvas paramétricas.
+
+> **Tangentes**
+>
+> * Si $\frac{dy}{dt} = 0$ en $t_0$ y $\frac{dx}{dt} \neq 0$ en $t_0$, entonces la curva tiene una tangente horizontal en $y(t_0)$.
+>
+> * Si $\frac{dx}{dt} = 0$ en $t_1$ y $\frac{dy}{dt} \neq 0$ en $t_1$, entonces la curva tiene una tangente vertical en $x(t_1)$.
+>
+> * Cuando $\frac{dy}{dt} = \frac{dx}{dt} = 0$ en un punto, no se puede extraer una conclusión inmediata acerca de la recta tangente.
+
+Como sabemos también es muy útil considerar la segunda derivada para determinar concavidad:
+
+Si f, g son continuamente derivables y $\frac{dy}{dt} \neq 0$, entonces
+
+$$
+\frac{d^{2}y}{dx^{2}} = \frac{dy' / dt}{dx / dt}
+$$
+
+donde $y' = \frac{dy}{dx}$
+
+## Área en paramétricas
+
+Si tenemos una curva con ecuaciones paramétricas:
+
+$$
+x = f(t), \ y = g(t), \ \alpha \leq t \leq \beta
+$$
+
+entonces podemos calcular el área usando la regla de sustitución para integrales definidas:
+
+> **Fórmula paramétrica para área**
+>
+> $A = \int_{a}^{b} ydx = \int_{\alpha}^{\beta} g(t)f'(t)dt$
+>
+> $A = \int_{a}^{b} xdy = \int_{\alpha}^{\beta} f(t)g'(t)dt$
+>
+> **Nota** Al calcular el área, el orden en los límites de integración depende del sentido en el cual se recorre la curva.
+
+## Longitud de arco
+
+Si tenemos una curva con ecuaciones paramétricas:
+
+$$
+x = f(t), \ y = g(t), \ \alpha \leq t \leq \beta
+$$
+
+Decimos que $C$ es **suave** si $f'$ y $g'$ son continuas y no simultaneamente iguales a 0 en $t \in [\alpha, \beta]$. Intuitivamente, significa que $C$ es una curva continua sin picos, ni esquinas.
+
+Ahora, si $C$ es una curva suave, que se recorre sólo una vez cuando $t$ aumenta de $\alpha$ a $\beta$, se define la **longitud de arco** de C por:
+
+$$
+L = \int_{\alpha}^{\beta} \sqrt{(\frac{dx}{dt})^{2} + (\frac{dy}{dt})^{2}} dt
+$$
+
+En el caso particular en que $y = f(x)$, $a \leq x \leq b$, podemos parametrizar la curva por $x = x, \ y= f(x)$. Es decir, tomamos la variable independiente $x$ como parámetro. Así:
+
+$$
+L = \int_{a}^{b} \sqrt{1 + (\frac{dy}{dx})^{2}} dx
+$$
+
+De manera análoga, si $x = g(y)$, $c \leq y \leq d$, tenemos
+
+$$
+L = \int_{a}^{b} \sqrt{(\frac{dx}{dy})^{2} + 1} dy
+$$
+
