@@ -28,7 +28,7 @@ Gráficamente,
 
 ![Grafica de f(x)]()
 
-> [!TIP]
+> [!NOTE]
 >
 > Sea $p \in \mathbb{R}$ fijo
 >
