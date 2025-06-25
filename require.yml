@@ -1,0 +1,12 @@
+name: math
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - python=3.12
+  - seaborn
+prefix: /home/jdavid/anaconda3/envs/math
