@@ -1,3 +1,14 @@
+<table border=1>
+  <thead>
+    <th>
+      <img src="https://minas.medellin.unal.edu.co/images/Programa-Minas-Contigo/Logo-Minas-Contigo.png" width="320px" height="270px" />
+    </th>
+    <th>
+      <h1>Aplicaciones de la integración</h1>
+    </th>
+  </thead>
+</table>
+
 # Áreas entre curvas
 
 Ahora vamos a usar la integral definida para calcular áreas limitadas por las gráficas de 2 funciones. Sean $f$ y $g$ 2 funciones continuas en el intervalo $[a, b]$ con la condición $f(x) \geq g(x)$ en $[a, b]$:

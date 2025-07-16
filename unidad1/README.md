@@ -1,3 +1,14 @@
+<table border=1>
+  <thead>
+    <th>
+      <img src="https://minas.medellin.unal.edu.co/images/Programa-Minas-Contigo/Logo-Minas-Contigo.png" width="320px" height="270px" />
+    </th>
+    <th>
+      <h1>Integrales</h1>
+    </th>
+  </thead>
+</table>
+
 # Notación Sigma
 
 El **Operador sumatoria** nos permite escribir la suma de varios números $a_m, ..., a_n$ $(m \leq n)$ en la forma compacta
