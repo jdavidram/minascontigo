@@ -2,7 +2,7 @@
 
 > [!NOTE]
 >
-> Notas opensource sobre Cálculo Integral y Ecuaciones Diferenciales
+> Notas opensource sobre Cálculo Integral
 
 ---
 
