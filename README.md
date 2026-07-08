@@ -1,4 +1,4 @@
-![Programa Minas Contigo](./img/BannerMinasContigo.jpg)
+![Programa Minas Contigo](./assets/BannerMinasContigo.jpg)
 
 **¡Bienvenidos a Minas Contigo!** Este es un proyecto abierto nacido de la idea de que el conocimiento complejo se entiende mejor cuando se construye de forma colectiva.
 
